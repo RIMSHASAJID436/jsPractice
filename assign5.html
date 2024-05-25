@@ -88,28 +88,11 @@ var sum = a+b
  
  document.write("<h1>Fourth Question Table </h1>")
 
-var table = 9
-var one = 9*1;
-var two = 9*2;
-var three = 9*3;
-var four = 9*4;
-var five = 9*5;
-var six = 9*6;
-var seven  = 9*7;
-var eight  = 9*8;
-var nine = 9*9;
-var ten = 9*10;
-document.write( "Table of   9 ")
-document.write("<br>"+"9 x 1 = "+one)
-document.write("<br>"+"9 x 2 = "+two)
-document.write("<br>"+"9 x 3 = "+three)
-document.write("<br>"+"9 x 4 = "+four)
-document.write("<br>"+"9 x 5 = "+five)
-document.write("<br>"+"9 x 6 = "+six)
-document.write("<br>"+"9 x 7 = "+seven)
-document.write("<br>"+"9 x 8 = "+eight)
-document.write("<br>"+"9 x 9 = "+nine)
-document.write("<br>"+"9 x 10 = "+ten)
+ var table = prompt("Enter A Table Number")
+        var lenght = prompt("Enter A Table Lenght")
+        for (var i = 1; i <= lenght; i++) {
+            document.write(table + " X " + i + " = " + table * i + "<br>")
+        }
 
 document.write("<h1>Fifth Question Shopping Cart </h1>")
 
